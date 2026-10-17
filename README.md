@@ -34,3 +34,14 @@ print(world.columns.tolist())
 ## 许可证与图形源文件
 
 仓库包含 [MIT License](LICENSE)。横幅的可编辑源文件为 [banner.excalidraw](assets/readme/banner.excalidraw)。
+
+
+<!-- readme-visual-refresh:remote-result -->
+## Output generated on EHPC · 17 October 2026
+
+![Coordinate distributions from the two original CSV files: 2,394 Chinese station records and 154 world soil-coordinate records. The latter are not labeled as weather stations.](assets/readme/remote-result.png)
+
+Coordinate distributions from the two original CSV files: 2,394 Chinese station records and 154 world soil-coordinate records. The latter are not labeled as weather stations.
+
+Generated in an isolated PBS CPU job. [Source and input checksums, versions and execution record](assets/readme/remote-run.json).
+<!-- /readme-visual-refresh:remote-result -->

@@ -1,0 +1,64 @@
+{
+  "project": "csvfile",
+  "command": [
+    "python",
+    "run_demo.py",
+    "--output-dir",
+    "../outputs"
+  ],
+  "python": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.2",
+    "seaborn": "0.13.2",
+    "shap": "0.46.0",
+    "numba": "0.60.0",
+    "xgboost": "1.7.6"
+  },
+  "started_at_utc": "2026-10-17T17:28:20.489077+00:00",
+  "finished_at_utc": "2026-10-17T17:28:21.254908+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 0.7658313200809062,
+  "execution_kind": "new documentation visualization of unchanged repository CSVs",
+  "project_pipeline_rerun": false,
+  "environment": "EHPC PBS CPU job",
+  "resources": {
+    "nodes": 1,
+    "cpus": 2,
+    "memory_gb": 4
+  },
+  "outputs": [
+    {
+      "path": "station-coordinate-distribution.png",
+      "sha256": "e090b1901794379b2fb342d2e542d71fdb94394d2fbd2fd001401f99d1878268",
+      "bytes": 243020
+    }
+  ],
+  "source_files": [
+    {
+      "path": "source/run_demo.py",
+      "sha256": "b6a119cf915217012b49d1f5d98c1b5ff8c21b4da78941c4b4771e4b25e14bbd",
+      "bytes": 3576
+    }
+  ],
+  "input_files": [
+    {
+      "path": "manifest.json",
+      "sha256": "593abb1c398aa7caf2acf6c7f503ae1a25a296b38bf8cca1d56fd021f5275694",
+      "bytes": 1596
+    },
+    {
+      "path": "source/data/Chinastation.csv",
+      "sha256": "bdef0122e72c54c9ae63725e764459288b0e181320387eee1bb49092482f1741",
+      "bytes": 68493
+    },
+    {
+      "path": "source/data/worldstation.csv",
+      "sha256": "94f69e29c41aec027fc50c30b04e7cd878f75815f966e54ab53c01f611713eec",
+      "bytes": 5981
+    }
+  ]
+}
